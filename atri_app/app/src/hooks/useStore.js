@@ -184,7 +184,10 @@ const desktopModeProps = {
     },
     "TextBox7": {
       "styles": {
-        "boxShadow": "0px 00px 0px 0px "
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 700,
+        "fontSize": "175%"
       },
       "custom": {
         "text": "Webfolio X"
@@ -273,12 +276,16 @@ const desktopModeProps = {
         "alignItems": "baseline",
         "paddingTop": "",
         "paddingBottom": "",
-        "paddingLeft": "50px",
-        "marginLeft": "60px",
+        "paddingLeft": "",
+        "marginLeft": "",
         "marginTop": "100px",
         "marginBottom": "30px",
         "left": 0,
-        "position": "relative"
+        "position": "relative",
+        "boxSizing": "border-box",
+        "alignContent": "space-around",
+        "flexWrap": "wrap",
+        "width": "100%"
       },
       "callbacks": {}
     },
@@ -434,24 +441,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Card1": {
-      "styles": {
-        "display": "flex",
-        "boxShadow": "0px 00px 0px 0px ",
-        "alignItems": "center",
-        "justifyContent": "center",
-        "flexDirection": "row"
-      },
-      "callbacks": {}
-    },
-    "Flex13": {
-      "styles": {
-        "display": "flex",
-        "boxShadow": "0px 00px 0px 0px ",
-        "flexDirection": "column"
-      },
-      "callbacks": {}
-    },
     "TextBox16": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
@@ -516,31 +505,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image2": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px ",
-        "width": "45%",
-        "height": ""
-      },
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/kick.jpg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Div2": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px ",
-        "alignSelf": "auto"
-      },
-      "callbacks": {}
-    },
     "Link11": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
@@ -561,23 +525,6 @@ const desktopModeProps = {
       }
     },
     "Carousel3": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px "
-      },
-      "custom": {
-        "items": [],
-        "startTile": 0,
-        "imageItems": []
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Carousel4": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px "
       },
@@ -904,94 +851,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Carousel7": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px "
-      },
-      "custom": {
-        "items": [],
-        "startTile": 0,
-        "imageItems": []
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Div7": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px ",
-        "alignSelf": "auto"
-      },
-      "callbacks": {}
-    },
-    "Image7": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px ",
-        "width": "45%",
-        "height": ""
-      },
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/kick.jpg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Flex19": {
-      "styles": {
-        "display": "flex",
-        "boxShadow": "0px 00px 0px 0px ",
-        "alignItems": "center",
-        "justifyContent": "center",
-        "flexDirection": "row"
-      },
-      "callbacks": {}
-    },
-    "Button2": {
-      "styles": {
-        "color": "#000000",
-        "backgroundColor": "#ffffff",
-        "paddingTop": "8px",
-        "paddingLeft": "15px",
-        "paddingBottom": "8px",
-        "paddingRight": "15px",
-        "fontSize": "16px",
-        "borderRadius": "2px",
-        "outline": "none",
-        "fontWeight": 600,
-        "textAlign": "center",
-        "borderWidth": "1px",
-        "borderStyle": "solid",
-        "borderColor": "#1890ff",
-        "cursor": "pointer",
-        "userSelect": "none",
-        "boxShadow": "0px 00px 0px 0px ",
-        "marginLeft": "",
-        "marginTop": "30px",
-        "fontFamily": "IBM Plex Sans",
-        "left": 900,
-        "position": "relative"
-      },
-      "custom": {
-        "text": "Visit Portfolio ↗"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "Link16": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
@@ -1075,7 +934,256 @@ const desktopModeProps = {
         ]
       }
     },
-    "Carousel8": {
+    "Link17": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "paddingTop": "20px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "Visit Project ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox38": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "float": "none",
+        "textAlign": "left",
+        "wordWrap": "normal",
+        "overflow": "visible",
+        "boxSizing": "content-box",
+        "clear": "both",
+        "backgroundOrigin": "content-box",
+        "backgroundAttachment": "scroll",
+        "width": "500px",
+        "paddingTop": "5px"
+      },
+      "custom": {
+        "text": "Lorem Ipsum is commonly used but where is the creativity? Why not use your own brain to jusy give out random words?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox39": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "150%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "Wesbite Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox40": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "100%",
+        "paddingTop": "",
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "App X  -  Web Design     "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link18": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "paddingTop": "20px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "Visit Project ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox41": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "float": "none",
+        "textAlign": "left",
+        "wordWrap": "normal",
+        "overflow": "visible",
+        "boxSizing": "content-box",
+        "clear": "both",
+        "backgroundOrigin": "content-box",
+        "backgroundAttachment": "scroll",
+        "width": "500px",
+        "paddingTop": "5px"
+      },
+      "custom": {
+        "text": "Lorem Ipsum is commonly used but where is the creativity? Why not use your own brain to jusy give out random words?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox42": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "150%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "Wesbite Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox43": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "100%",
+        "paddingTop": "",
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "App X  -  Web Design     "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link19": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "paddingTop": "20px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "Visit Project ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox44": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "float": "none",
+        "textAlign": "left",
+        "wordWrap": "normal",
+        "overflow": "visible",
+        "boxSizing": "content-box",
+        "clear": "both",
+        "backgroundOrigin": "content-box",
+        "backgroundAttachment": "scroll",
+        "width": "500px",
+        "paddingTop": "5px"
+      },
+      "custom": {
+        "text": "Lorem Ipsum is commonly used but where is the creativity? Why not use your own brain to jusy give out random words?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox45": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "150%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "Wesbite Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox46": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "100%",
+        "paddingTop": "",
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "App X  -  Web Design     "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Carousel11": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px "
       },
@@ -1092,14 +1200,14 @@ const desktopModeProps = {
         ]
       }
     },
-    "Div8": {
+    "Div11": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
         "alignSelf": "auto"
       },
       "callbacks": {}
     },
-    "Image8": {
+    "Image11": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
         "width": "45%",
@@ -1117,15 +1225,1006 @@ const desktopModeProps = {
         ]
       }
     },
-    "Flex20": {
+    "Link20": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "paddingTop": "20px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "Visit Project ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox47": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "float": "none",
+        "textAlign": "left",
+        "wordWrap": "normal",
+        "overflow": "visible",
+        "boxSizing": "content-box",
+        "clear": "both",
+        "backgroundOrigin": "content-box",
+        "backgroundAttachment": "scroll",
+        "width": "500px",
+        "paddingTop": "5px"
+      },
+      "custom": {
+        "text": "Lorem Ipsum is commonly used but where is the creativity? Why not use your own brain to jusy give out random words?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox48": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "150%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "Wesbite Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox49": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "100%",
+        "paddingTop": "",
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "App X  -  Web Design     "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox50": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "100%",
+        "paddingTop": "",
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "App X  -  Web Design     "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox51": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "150%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "Wesbite Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox52": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "float": "none",
+        "textAlign": "left",
+        "wordWrap": "normal",
+        "overflow": "visible",
+        "boxSizing": "content-box",
+        "clear": "both",
+        "backgroundOrigin": "content-box",
+        "backgroundAttachment": "scroll",
+        "width": "500px",
+        "paddingTop": "5px"
+      },
+      "custom": {
+        "text": "Lorem Ipsum is commonly used but where is the creativity? Why not use your own brain to jusy give out random words?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link21": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "paddingTop": "20px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "Visit Project ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image13": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "45%",
+        "height": ""
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/kick.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div13": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "alignSelf": "auto"
+      },
+      "callbacks": {}
+    },
+    "Carousel13": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "custom": {
+        "items": [],
+        "startTile": 0,
+        "imageItems": []
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex25": {
       "styles": {
         "display": "flex",
         "boxShadow": "0px 00px 0px 0px ",
         "alignItems": "center",
         "justifyContent": "center",
+        "flexDirection": "row",
+        "borderRadius": "",
+        "width": "95%",
+        "position": "relative",
+        "left": 20,
+        "outlineStyle": "solid",
+        "outlineWidth": "0.1px",
+        "outlineColor": "#0e0d0d",
+        "float": "right"
+      },
+      "callbacks": {}
+    },
+    "Carousel14": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "custom": {
+        "items": [],
+        "startTile": 0,
+        "imageItems": []
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex26": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexDirection": "row",
+        "borderRadius": "",
+        "width": "95%",
+        "position": "relative",
+        "left": 20,
+        "outlineStyle": "solid",
+        "outlineWidth": "0.1px",
+        "outlineColor": "#0e0d0d",
+        "float": "right"
+      },
+      "callbacks": {}
+    },
+    "Flex27": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "callbacks": {}
+    },
+    "TextBox56": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "100%",
+        "paddingTop": "",
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "App X  -  Web Design     "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox57": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "150%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "Wesbite Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox58": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "float": "none",
+        "textAlign": "left",
+        "wordWrap": "normal",
+        "overflow": "visible",
+        "boxSizing": "content-box",
+        "clear": "both",
+        "backgroundOrigin": "content-box",
+        "backgroundAttachment": "scroll",
+        "width": "500px",
+        "paddingTop": "5px"
+      },
+      "custom": {
+        "text": "Lorem Ipsum is commonly used but where is the creativity? Why not use your own brain to jusy give out random words?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link23": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "paddingTop": "20px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "Visit Project ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Card_Container": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "justifyContent": "space-between",
+        "alignContent": "center",
+        "rowGap": "75px",
+        "paddingBottom": ""
+      },
+      "callbacks": {}
+    },
+    "TextBox59": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "100%",
+        "paddingTop": "",
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "App X  -  Web Design     "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox60": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "150%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "Wesbite Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox61": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "float": "none",
+        "textAlign": "left",
+        "wordWrap": "normal",
+        "overflow": "visible",
+        "boxSizing": "content-box",
+        "clear": "both",
+        "backgroundOrigin": "content-box",
+        "backgroundAttachment": "scroll",
+        "width": "500px",
+        "paddingTop": "5px"
+      },
+      "custom": {
+        "text": "Lorem Ipsum is commonly used but where is the creativity? Why not use your own brain to jusy give out random words?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link24": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "paddingTop": "20px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "Visit Project ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image16": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "45%",
+        "height": ""
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/kick.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div16": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "alignSelf": "auto"
+      },
+      "callbacks": {}
+    },
+    "Carousel16": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "custom": {
+        "items": [],
+        "startTile": 0,
+        "imageItems": []
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex30": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexDirection": "row",
+        "borderRadius": "",
+        "width": "95%",
+        "position": "relative",
+        "left": 20,
+        "outlineStyle": "solid",
+        "outlineWidth": "0.1px",
+        "outlineColor": "#0e0d0d",
+        "float": "right"
+      },
+      "callbacks": {}
+    },
+    "TextBox62": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "100%",
+        "paddingTop": "",
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "App X  -  Web Design     "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox63": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "150%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "Wesbite Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox64": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "float": "none",
+        "textAlign": "left",
+        "wordWrap": "normal",
+        "overflow": "visible",
+        "boxSizing": "content-box",
+        "clear": "both",
+        "backgroundOrigin": "content-box",
+        "backgroundAttachment": "scroll",
+        "width": "500px",
+        "paddingTop": "5px"
+      },
+      "custom": {
+        "text": "Lorem Ipsum is commonly used but where is the creativity? Why not use your own brain to jusy give out random words?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link25": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "paddingTop": "20px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "Visit Project ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image17": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "45%",
+        "height": ""
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/kick.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div17": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "alignSelf": "auto"
+      },
+      "callbacks": {}
+    },
+    "Carousel17": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "custom": {
+        "items": [],
+        "startTile": 0,
+        "imageItems": []
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex31": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexDirection": "row",
+        "borderRadius": "",
+        "width": "95%",
+        "position": "relative",
+        "left": 20,
+        "outlineStyle": "solid",
+        "outlineWidth": "0.1px",
+        "outlineColor": "#0e0d0d",
+        "float": "right"
+      },
+      "callbacks": {}
+    },
+    "TextBox65": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "100%",
+        "paddingTop": "",
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "App X  -  Web Design     "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox66": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "150%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "Wesbite Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox67": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "float": "none",
+        "textAlign": "left",
+        "wordWrap": "normal",
+        "overflow": "visible",
+        "boxSizing": "content-box",
+        "clear": "both",
+        "backgroundOrigin": "content-box",
+        "backgroundAttachment": "scroll",
+        "width": "500px",
+        "paddingTop": "5px"
+      },
+      "custom": {
+        "text": "Lorem Ipsum is commonly used but where is the creativity? Why not use your own brain to jusy give out random words?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link26": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "paddingTop": "20px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "Visit Project ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox68": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "100%",
+        "paddingTop": "",
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "App X  -  Web Design     "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox69": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "150%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "paddingBottom": "10px"
+      },
+      "custom": {
+        "text": "Wesbite Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox70": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "float": "none",
+        "textAlign": "left",
+        "wordWrap": "normal",
+        "overflow": "visible",
+        "boxSizing": "content-box",
+        "clear": "both",
+        "backgroundOrigin": "content-box",
+        "backgroundAttachment": "scroll",
+        "width": "500px",
+        "paddingTop": "5px"
+      },
+      "custom": {
+        "text": "Lorem Ipsum is commonly used but where is the creativity? Why not use your own brain to jusy give out random words?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link27": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "paddingTop": "20px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "Visit Project ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image19": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "45%",
+        "height": ""
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/kick.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Div19": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "alignSelf": "auto"
+      },
+      "callbacks": {}
+    },
+    "Carousel19": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "custom": {
+        "items": [],
+        "startTile": 0,
+        "imageItems": []
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex33": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexDirection": "row",
+        "borderRadius": "",
+        "width": "95%",
+        "position": "relative",
+        "left": 20,
+        "outlineStyle": "solid",
+        "outlineWidth": "0.1px",
+        "outlineColor": "#0e0d0d",
+        "float": "right"
+      },
+      "callbacks": {}
+    },
+    "Flex34": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "alignItems": "center"
+      },
+      "callbacks": {}
+    },
+    "TextBox71": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginTop": "300px"
+      },
+      "custom": {
+        "text": "___________________________________________________________________________________________________________________________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex35": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "callbacks": {}
+    },
+    "TextBox74": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "clear": "left",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600,
+        "textAlign": "left",
+        "wordWrap": "break-word",
+        "fontSize": "250%",
+        "width": "35%",
+        "paddingLeft": "",
+        "position": "relative",
+        "left": 300
+      },
+      "custom": {
+        "text": "Who's behind all this great work?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox75": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "color": "#4e4b4b",
+        "fontSize": "125%",
+        "width": "40%",
+        "position": "relative",
+        "left": 300
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labor."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex37": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "alignItems": "flex-start",
+        "justifyContent": "flex-start",
+        "flexWrap": "wrap"
+      },
+      "callbacks": {}
+    },
+    "Flex38": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
         "flexDirection": "row"
       },
       "callbacks": {}
+    },
+    "Flex39": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "",
+        "marginTop": "100px"
+      },
+      "callbacks": {}
+    },
+    "Image22": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "35%",
+        "position": "relative",
+        "right": 100
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/s1.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     }
   }
 }};
@@ -1155,6 +2254,66 @@ const breakpointProps = {
           "boxShadow": "0px 00px 0px 0px ",
           "marginRight": "15px"
         }
+      },
+      "TextBox9": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox16": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox40": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox43": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox46": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox49": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox50": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox56": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox59": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox62": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox65": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox68": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
       }
     },
     "767": {
@@ -1170,6 +2329,71 @@ const breakpointProps = {
         }
       },
       "Link9": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox9": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "Intro_Box": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox16": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox40": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox43": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox46": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox49": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox50": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox56": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox59": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox62": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox65": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox68": {
         "styles": {
           "boxShadow": "0px 00px 0px 0px "
         }
@@ -1189,6 +2413,86 @@ const breakpointProps = {
       "Link9": {
         "styles": {
           "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "TextBox9": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px "
+        }
+      },
+      "Intro_Box": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "width": "",
+          "alignSelf": "auto",
+          "overflow": "visible",
+          "boxSizing": "content-box"
+        }
+      },
+      "TextBox16": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
+        }
+      },
+      "TextBox40": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
+        }
+      },
+      "TextBox43": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
+        }
+      },
+      "TextBox46": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
+        }
+      },
+      "TextBox49": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
+        }
+      },
+      "TextBox50": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
+        }
+      },
+      "TextBox56": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
+        }
+      },
+      "TextBox59": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
+        }
+      },
+      "TextBox62": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
+        }
+      },
+      "TextBox65": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
+        }
+      },
+      "TextBox68": {
+        "styles": {
+          "boxShadow": "0px 00px 0px 0px ",
+          "boxSizing": "inherit"
         }
       }
     }

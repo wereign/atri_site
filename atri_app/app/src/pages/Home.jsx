@@ -9,10 +9,9 @@ import { Flex } from "@atrilabs/react-component-manifests/src/manifests/Flex/Fle
 import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Dropdown } from "@atrilabs/react-component-manifests/src/manifests/Dropdown/Dropdown.tsx";
 import { Carousel } from "@atrilabs/react-component-manifests/src/manifests/Carousel/Carousel.tsx";
-import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { Div } from "@atrilabs/react-component-manifests/src/manifests/Div/Div.tsx";
-import { Button } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
-import { useLink1Cb, useLink2Cb, useContactCb, useFlex5Cb, useFlex7Cb, useLink8Cb, useLink9Cb, useLink10Cb, useMenu_BarCb, useTextBox7Cb, useDropdown2Cb, useTextBox8Cb, useTextBox9Cb, useIntro_BoxCb, useTextBox10Cb, useTextBox11Cb, useTextBox12Cb, useTextBox13Cb, useTextBox14Cb, usepast_projectsCb, useCarousel1Cb, useFlex11Cb, useTextBox15Cb, useCard1Cb, useFlex13Cb, useTextBox16Cb, useTextBox17Cb, useTextBox18Cb, useImage2Cb, useDiv2Cb, useLink11Cb, useCarousel3Cb, useCarousel4Cb, useTextBox19Cb, useTextBox20Cb, useTextBox21Cb, useLink12Cb, useLink13Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useLink14Cb, useTextBox29Cb, useTextBox30Cb, useTextBox31Cb, useLink15Cb, useTextBox32Cb, useTextBox33Cb, useTextBox34Cb, useCarousel7Cb, useDiv7Cb, useImage7Cb, useFlex19Cb, useButton2Cb, useLink16Cb, useTextBox35Cb, useTextBox36Cb, useTextBox37Cb, useCarousel8Cb, useDiv8Cb, useImage8Cb, useFlex20Cb } from "../page-cbs/Home";
+import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
+import { useLink1Cb, useLink2Cb, useContactCb, useFlex5Cb, useFlex7Cb, useLink8Cb, useLink9Cb, useLink10Cb, useMenu_BarCb, useTextBox7Cb, useDropdown2Cb, useTextBox8Cb, useTextBox9Cb, useIntro_BoxCb, useTextBox10Cb, useTextBox11Cb, useTextBox12Cb, useTextBox13Cb, useTextBox14Cb, usepast_projectsCb, useCarousel1Cb, useFlex11Cb, useTextBox15Cb, useTextBox16Cb, useTextBox17Cb, useTextBox18Cb, useLink11Cb, useCarousel3Cb, useTextBox19Cb, useTextBox20Cb, useTextBox21Cb, useLink12Cb, useLink13Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useLink14Cb, useTextBox29Cb, useTextBox30Cb, useTextBox31Cb, useLink15Cb, useTextBox32Cb, useTextBox33Cb, useTextBox34Cb, useLink16Cb, useTextBox35Cb, useTextBox36Cb, useTextBox37Cb, useLink17Cb, useTextBox38Cb, useTextBox39Cb, useTextBox40Cb, useLink18Cb, useTextBox41Cb, useTextBox42Cb, useTextBox43Cb, useLink19Cb, useTextBox44Cb, useTextBox45Cb, useTextBox46Cb, useCarousel11Cb, useDiv11Cb, useImage11Cb, useLink20Cb, useTextBox47Cb, useTextBox48Cb, useTextBox49Cb, useTextBox50Cb, useTextBox51Cb, useTextBox52Cb, useLink21Cb, useImage13Cb, useDiv13Cb, useCarousel13Cb, useFlex25Cb, useCarousel14Cb, useFlex26Cb, useFlex27Cb, useTextBox56Cb, useTextBox57Cb, useTextBox58Cb, useLink23Cb, useCard_ContainerCb, useTextBox59Cb, useTextBox60Cb, useTextBox61Cb, useLink24Cb, useImage16Cb, useDiv16Cb, useCarousel16Cb, useFlex30Cb, useTextBox62Cb, useTextBox63Cb, useTextBox64Cb, useLink25Cb, useImage17Cb, useDiv17Cb, useCarousel17Cb, useFlex31Cb, useTextBox65Cb, useTextBox66Cb, useTextBox67Cb, useLink26Cb, useTextBox68Cb, useTextBox69Cb, useTextBox70Cb, useLink27Cb, useImage19Cb, useDiv19Cb, useCarousel19Cb, useFlex33Cb, useFlex34Cb, useTextBox71Cb, useFlex35Cb, useTextBox74Cb, useTextBox75Cb, useFlex37Cb, useFlex38Cb, useFlex39Cb, useImage22Cb } from "../page-cbs/Home";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -113,12 +112,6 @@ const Flex11Cb = useFlex11Cb()
 const TextBox15Props = useStore((state)=>state["Home"]["TextBox15"]);
 const TextBox15IoProps = useIoStore((state)=>state["Home"]["TextBox15"]);
 const TextBox15Cb = useTextBox15Cb()
-const Card1Props = useStore((state)=>state["Home"]["Card1"]);
-const Card1IoProps = useIoStore((state)=>state["Home"]["Card1"]);
-const Card1Cb = useCard1Cb()
-const Flex13Props = useStore((state)=>state["Home"]["Flex13"]);
-const Flex13IoProps = useIoStore((state)=>state["Home"]["Flex13"]);
-const Flex13Cb = useFlex13Cb()
 const TextBox16Props = useStore((state)=>state["Home"]["TextBox16"]);
 const TextBox16IoProps = useIoStore((state)=>state["Home"]["TextBox16"]);
 const TextBox16Cb = useTextBox16Cb()
@@ -128,21 +121,12 @@ const TextBox17Cb = useTextBox17Cb()
 const TextBox18Props = useStore((state)=>state["Home"]["TextBox18"]);
 const TextBox18IoProps = useIoStore((state)=>state["Home"]["TextBox18"]);
 const TextBox18Cb = useTextBox18Cb()
-const Image2Props = useStore((state)=>state["Home"]["Image2"]);
-const Image2IoProps = useIoStore((state)=>state["Home"]["Image2"]);
-const Image2Cb = useImage2Cb()
-const Div2Props = useStore((state)=>state["Home"]["Div2"]);
-const Div2IoProps = useIoStore((state)=>state["Home"]["Div2"]);
-const Div2Cb = useDiv2Cb()
 const Link11Props = useStore((state)=>state["Home"]["Link11"]);
 const Link11IoProps = useIoStore((state)=>state["Home"]["Link11"]);
 const Link11Cb = useLink11Cb()
 const Carousel3Props = useStore((state)=>state["Home"]["Carousel3"]);
 const Carousel3IoProps = useIoStore((state)=>state["Home"]["Carousel3"]);
 const Carousel3Cb = useCarousel3Cb()
-const Carousel4Props = useStore((state)=>state["Home"]["Carousel4"]);
-const Carousel4IoProps = useIoStore((state)=>state["Home"]["Carousel4"]);
-const Carousel4Cb = useCarousel4Cb()
 const TextBox19Props = useStore((state)=>state["Home"]["TextBox19"]);
 const TextBox19IoProps = useIoStore((state)=>state["Home"]["TextBox19"]);
 const TextBox19Cb = useTextBox19Cb()
@@ -191,21 +175,6 @@ const TextBox33Cb = useTextBox33Cb()
 const TextBox34Props = useStore((state)=>state["Home"]["TextBox34"]);
 const TextBox34IoProps = useIoStore((state)=>state["Home"]["TextBox34"]);
 const TextBox34Cb = useTextBox34Cb()
-const Carousel7Props = useStore((state)=>state["Home"]["Carousel7"]);
-const Carousel7IoProps = useIoStore((state)=>state["Home"]["Carousel7"]);
-const Carousel7Cb = useCarousel7Cb()
-const Div7Props = useStore((state)=>state["Home"]["Div7"]);
-const Div7IoProps = useIoStore((state)=>state["Home"]["Div7"]);
-const Div7Cb = useDiv7Cb()
-const Image7Props = useStore((state)=>state["Home"]["Image7"]);
-const Image7IoProps = useIoStore((state)=>state["Home"]["Image7"]);
-const Image7Cb = useImage7Cb()
-const Flex19Props = useStore((state)=>state["Home"]["Flex19"]);
-const Flex19IoProps = useIoStore((state)=>state["Home"]["Flex19"]);
-const Flex19Cb = useFlex19Cb()
-const Button2Props = useStore((state)=>state["Home"]["Button2"]);
-const Button2IoProps = useIoStore((state)=>state["Home"]["Button2"]);
-const Button2Cb = useButton2Cb()
 const Link16Props = useStore((state)=>state["Home"]["Link16"]);
 const Link16IoProps = useIoStore((state)=>state["Home"]["Link16"]);
 const Link16Cb = useLink16Cb()
@@ -218,18 +187,222 @@ const TextBox36Cb = useTextBox36Cb()
 const TextBox37Props = useStore((state)=>state["Home"]["TextBox37"]);
 const TextBox37IoProps = useIoStore((state)=>state["Home"]["TextBox37"]);
 const TextBox37Cb = useTextBox37Cb()
-const Carousel8Props = useStore((state)=>state["Home"]["Carousel8"]);
-const Carousel8IoProps = useIoStore((state)=>state["Home"]["Carousel8"]);
-const Carousel8Cb = useCarousel8Cb()
-const Div8Props = useStore((state)=>state["Home"]["Div8"]);
-const Div8IoProps = useIoStore((state)=>state["Home"]["Div8"]);
-const Div8Cb = useDiv8Cb()
-const Image8Props = useStore((state)=>state["Home"]["Image8"]);
-const Image8IoProps = useIoStore((state)=>state["Home"]["Image8"]);
-const Image8Cb = useImage8Cb()
-const Flex20Props = useStore((state)=>state["Home"]["Flex20"]);
-const Flex20IoProps = useIoStore((state)=>state["Home"]["Flex20"]);
-const Flex20Cb = useFlex20Cb()
+const Link17Props = useStore((state)=>state["Home"]["Link17"]);
+const Link17IoProps = useIoStore((state)=>state["Home"]["Link17"]);
+const Link17Cb = useLink17Cb()
+const TextBox38Props = useStore((state)=>state["Home"]["TextBox38"]);
+const TextBox38IoProps = useIoStore((state)=>state["Home"]["TextBox38"]);
+const TextBox38Cb = useTextBox38Cb()
+const TextBox39Props = useStore((state)=>state["Home"]["TextBox39"]);
+const TextBox39IoProps = useIoStore((state)=>state["Home"]["TextBox39"]);
+const TextBox39Cb = useTextBox39Cb()
+const TextBox40Props = useStore((state)=>state["Home"]["TextBox40"]);
+const TextBox40IoProps = useIoStore((state)=>state["Home"]["TextBox40"]);
+const TextBox40Cb = useTextBox40Cb()
+const Link18Props = useStore((state)=>state["Home"]["Link18"]);
+const Link18IoProps = useIoStore((state)=>state["Home"]["Link18"]);
+const Link18Cb = useLink18Cb()
+const TextBox41Props = useStore((state)=>state["Home"]["TextBox41"]);
+const TextBox41IoProps = useIoStore((state)=>state["Home"]["TextBox41"]);
+const TextBox41Cb = useTextBox41Cb()
+const TextBox42Props = useStore((state)=>state["Home"]["TextBox42"]);
+const TextBox42IoProps = useIoStore((state)=>state["Home"]["TextBox42"]);
+const TextBox42Cb = useTextBox42Cb()
+const TextBox43Props = useStore((state)=>state["Home"]["TextBox43"]);
+const TextBox43IoProps = useIoStore((state)=>state["Home"]["TextBox43"]);
+const TextBox43Cb = useTextBox43Cb()
+const Link19Props = useStore((state)=>state["Home"]["Link19"]);
+const Link19IoProps = useIoStore((state)=>state["Home"]["Link19"]);
+const Link19Cb = useLink19Cb()
+const TextBox44Props = useStore((state)=>state["Home"]["TextBox44"]);
+const TextBox44IoProps = useIoStore((state)=>state["Home"]["TextBox44"]);
+const TextBox44Cb = useTextBox44Cb()
+const TextBox45Props = useStore((state)=>state["Home"]["TextBox45"]);
+const TextBox45IoProps = useIoStore((state)=>state["Home"]["TextBox45"]);
+const TextBox45Cb = useTextBox45Cb()
+const TextBox46Props = useStore((state)=>state["Home"]["TextBox46"]);
+const TextBox46IoProps = useIoStore((state)=>state["Home"]["TextBox46"]);
+const TextBox46Cb = useTextBox46Cb()
+const Carousel11Props = useStore((state)=>state["Home"]["Carousel11"]);
+const Carousel11IoProps = useIoStore((state)=>state["Home"]["Carousel11"]);
+const Carousel11Cb = useCarousel11Cb()
+const Div11Props = useStore((state)=>state["Home"]["Div11"]);
+const Div11IoProps = useIoStore((state)=>state["Home"]["Div11"]);
+const Div11Cb = useDiv11Cb()
+const Image11Props = useStore((state)=>state["Home"]["Image11"]);
+const Image11IoProps = useIoStore((state)=>state["Home"]["Image11"]);
+const Image11Cb = useImage11Cb()
+const Link20Props = useStore((state)=>state["Home"]["Link20"]);
+const Link20IoProps = useIoStore((state)=>state["Home"]["Link20"]);
+const Link20Cb = useLink20Cb()
+const TextBox47Props = useStore((state)=>state["Home"]["TextBox47"]);
+const TextBox47IoProps = useIoStore((state)=>state["Home"]["TextBox47"]);
+const TextBox47Cb = useTextBox47Cb()
+const TextBox48Props = useStore((state)=>state["Home"]["TextBox48"]);
+const TextBox48IoProps = useIoStore((state)=>state["Home"]["TextBox48"]);
+const TextBox48Cb = useTextBox48Cb()
+const TextBox49Props = useStore((state)=>state["Home"]["TextBox49"]);
+const TextBox49IoProps = useIoStore((state)=>state["Home"]["TextBox49"]);
+const TextBox49Cb = useTextBox49Cb()
+const TextBox50Props = useStore((state)=>state["Home"]["TextBox50"]);
+const TextBox50IoProps = useIoStore((state)=>state["Home"]["TextBox50"]);
+const TextBox50Cb = useTextBox50Cb()
+const TextBox51Props = useStore((state)=>state["Home"]["TextBox51"]);
+const TextBox51IoProps = useIoStore((state)=>state["Home"]["TextBox51"]);
+const TextBox51Cb = useTextBox51Cb()
+const TextBox52Props = useStore((state)=>state["Home"]["TextBox52"]);
+const TextBox52IoProps = useIoStore((state)=>state["Home"]["TextBox52"]);
+const TextBox52Cb = useTextBox52Cb()
+const Link21Props = useStore((state)=>state["Home"]["Link21"]);
+const Link21IoProps = useIoStore((state)=>state["Home"]["Link21"]);
+const Link21Cb = useLink21Cb()
+const Image13Props = useStore((state)=>state["Home"]["Image13"]);
+const Image13IoProps = useIoStore((state)=>state["Home"]["Image13"]);
+const Image13Cb = useImage13Cb()
+const Div13Props = useStore((state)=>state["Home"]["Div13"]);
+const Div13IoProps = useIoStore((state)=>state["Home"]["Div13"]);
+const Div13Cb = useDiv13Cb()
+const Carousel13Props = useStore((state)=>state["Home"]["Carousel13"]);
+const Carousel13IoProps = useIoStore((state)=>state["Home"]["Carousel13"]);
+const Carousel13Cb = useCarousel13Cb()
+const Flex25Props = useStore((state)=>state["Home"]["Flex25"]);
+const Flex25IoProps = useIoStore((state)=>state["Home"]["Flex25"]);
+const Flex25Cb = useFlex25Cb()
+const Carousel14Props = useStore((state)=>state["Home"]["Carousel14"]);
+const Carousel14IoProps = useIoStore((state)=>state["Home"]["Carousel14"]);
+const Carousel14Cb = useCarousel14Cb()
+const Flex26Props = useStore((state)=>state["Home"]["Flex26"]);
+const Flex26IoProps = useIoStore((state)=>state["Home"]["Flex26"]);
+const Flex26Cb = useFlex26Cb()
+const Flex27Props = useStore((state)=>state["Home"]["Flex27"]);
+const Flex27IoProps = useIoStore((state)=>state["Home"]["Flex27"]);
+const Flex27Cb = useFlex27Cb()
+const TextBox56Props = useStore((state)=>state["Home"]["TextBox56"]);
+const TextBox56IoProps = useIoStore((state)=>state["Home"]["TextBox56"]);
+const TextBox56Cb = useTextBox56Cb()
+const TextBox57Props = useStore((state)=>state["Home"]["TextBox57"]);
+const TextBox57IoProps = useIoStore((state)=>state["Home"]["TextBox57"]);
+const TextBox57Cb = useTextBox57Cb()
+const TextBox58Props = useStore((state)=>state["Home"]["TextBox58"]);
+const TextBox58IoProps = useIoStore((state)=>state["Home"]["TextBox58"]);
+const TextBox58Cb = useTextBox58Cb()
+const Link23Props = useStore((state)=>state["Home"]["Link23"]);
+const Link23IoProps = useIoStore((state)=>state["Home"]["Link23"]);
+const Link23Cb = useLink23Cb()
+const Card_ContainerProps = useStore((state)=>state["Home"]["Card_Container"]);
+const Card_ContainerIoProps = useIoStore((state)=>state["Home"]["Card_Container"]);
+const Card_ContainerCb = useCard_ContainerCb()
+const TextBox59Props = useStore((state)=>state["Home"]["TextBox59"]);
+const TextBox59IoProps = useIoStore((state)=>state["Home"]["TextBox59"]);
+const TextBox59Cb = useTextBox59Cb()
+const TextBox60Props = useStore((state)=>state["Home"]["TextBox60"]);
+const TextBox60IoProps = useIoStore((state)=>state["Home"]["TextBox60"]);
+const TextBox60Cb = useTextBox60Cb()
+const TextBox61Props = useStore((state)=>state["Home"]["TextBox61"]);
+const TextBox61IoProps = useIoStore((state)=>state["Home"]["TextBox61"]);
+const TextBox61Cb = useTextBox61Cb()
+const Link24Props = useStore((state)=>state["Home"]["Link24"]);
+const Link24IoProps = useIoStore((state)=>state["Home"]["Link24"]);
+const Link24Cb = useLink24Cb()
+const Image16Props = useStore((state)=>state["Home"]["Image16"]);
+const Image16IoProps = useIoStore((state)=>state["Home"]["Image16"]);
+const Image16Cb = useImage16Cb()
+const Div16Props = useStore((state)=>state["Home"]["Div16"]);
+const Div16IoProps = useIoStore((state)=>state["Home"]["Div16"]);
+const Div16Cb = useDiv16Cb()
+const Carousel16Props = useStore((state)=>state["Home"]["Carousel16"]);
+const Carousel16IoProps = useIoStore((state)=>state["Home"]["Carousel16"]);
+const Carousel16Cb = useCarousel16Cb()
+const Flex30Props = useStore((state)=>state["Home"]["Flex30"]);
+const Flex30IoProps = useIoStore((state)=>state["Home"]["Flex30"]);
+const Flex30Cb = useFlex30Cb()
+const TextBox62Props = useStore((state)=>state["Home"]["TextBox62"]);
+const TextBox62IoProps = useIoStore((state)=>state["Home"]["TextBox62"]);
+const TextBox62Cb = useTextBox62Cb()
+const TextBox63Props = useStore((state)=>state["Home"]["TextBox63"]);
+const TextBox63IoProps = useIoStore((state)=>state["Home"]["TextBox63"]);
+const TextBox63Cb = useTextBox63Cb()
+const TextBox64Props = useStore((state)=>state["Home"]["TextBox64"]);
+const TextBox64IoProps = useIoStore((state)=>state["Home"]["TextBox64"]);
+const TextBox64Cb = useTextBox64Cb()
+const Link25Props = useStore((state)=>state["Home"]["Link25"]);
+const Link25IoProps = useIoStore((state)=>state["Home"]["Link25"]);
+const Link25Cb = useLink25Cb()
+const Image17Props = useStore((state)=>state["Home"]["Image17"]);
+const Image17IoProps = useIoStore((state)=>state["Home"]["Image17"]);
+const Image17Cb = useImage17Cb()
+const Div17Props = useStore((state)=>state["Home"]["Div17"]);
+const Div17IoProps = useIoStore((state)=>state["Home"]["Div17"]);
+const Div17Cb = useDiv17Cb()
+const Carousel17Props = useStore((state)=>state["Home"]["Carousel17"]);
+const Carousel17IoProps = useIoStore((state)=>state["Home"]["Carousel17"]);
+const Carousel17Cb = useCarousel17Cb()
+const Flex31Props = useStore((state)=>state["Home"]["Flex31"]);
+const Flex31IoProps = useIoStore((state)=>state["Home"]["Flex31"]);
+const Flex31Cb = useFlex31Cb()
+const TextBox65Props = useStore((state)=>state["Home"]["TextBox65"]);
+const TextBox65IoProps = useIoStore((state)=>state["Home"]["TextBox65"]);
+const TextBox65Cb = useTextBox65Cb()
+const TextBox66Props = useStore((state)=>state["Home"]["TextBox66"]);
+const TextBox66IoProps = useIoStore((state)=>state["Home"]["TextBox66"]);
+const TextBox66Cb = useTextBox66Cb()
+const TextBox67Props = useStore((state)=>state["Home"]["TextBox67"]);
+const TextBox67IoProps = useIoStore((state)=>state["Home"]["TextBox67"]);
+const TextBox67Cb = useTextBox67Cb()
+const Link26Props = useStore((state)=>state["Home"]["Link26"]);
+const Link26IoProps = useIoStore((state)=>state["Home"]["Link26"]);
+const Link26Cb = useLink26Cb()
+const TextBox68Props = useStore((state)=>state["Home"]["TextBox68"]);
+const TextBox68IoProps = useIoStore((state)=>state["Home"]["TextBox68"]);
+const TextBox68Cb = useTextBox68Cb()
+const TextBox69Props = useStore((state)=>state["Home"]["TextBox69"]);
+const TextBox69IoProps = useIoStore((state)=>state["Home"]["TextBox69"]);
+const TextBox69Cb = useTextBox69Cb()
+const TextBox70Props = useStore((state)=>state["Home"]["TextBox70"]);
+const TextBox70IoProps = useIoStore((state)=>state["Home"]["TextBox70"]);
+const TextBox70Cb = useTextBox70Cb()
+const Link27Props = useStore((state)=>state["Home"]["Link27"]);
+const Link27IoProps = useIoStore((state)=>state["Home"]["Link27"]);
+const Link27Cb = useLink27Cb()
+const Image19Props = useStore((state)=>state["Home"]["Image19"]);
+const Image19IoProps = useIoStore((state)=>state["Home"]["Image19"]);
+const Image19Cb = useImage19Cb()
+const Div19Props = useStore((state)=>state["Home"]["Div19"]);
+const Div19IoProps = useIoStore((state)=>state["Home"]["Div19"]);
+const Div19Cb = useDiv19Cb()
+const Carousel19Props = useStore((state)=>state["Home"]["Carousel19"]);
+const Carousel19IoProps = useIoStore((state)=>state["Home"]["Carousel19"]);
+const Carousel19Cb = useCarousel19Cb()
+const Flex33Props = useStore((state)=>state["Home"]["Flex33"]);
+const Flex33IoProps = useIoStore((state)=>state["Home"]["Flex33"]);
+const Flex33Cb = useFlex33Cb()
+const Flex34Props = useStore((state)=>state["Home"]["Flex34"]);
+const Flex34IoProps = useIoStore((state)=>state["Home"]["Flex34"]);
+const Flex34Cb = useFlex34Cb()
+const TextBox71Props = useStore((state)=>state["Home"]["TextBox71"]);
+const TextBox71IoProps = useIoStore((state)=>state["Home"]["TextBox71"]);
+const TextBox71Cb = useTextBox71Cb()
+const Flex35Props = useStore((state)=>state["Home"]["Flex35"]);
+const Flex35IoProps = useIoStore((state)=>state["Home"]["Flex35"]);
+const Flex35Cb = useFlex35Cb()
+const TextBox74Props = useStore((state)=>state["Home"]["TextBox74"]);
+const TextBox74IoProps = useIoStore((state)=>state["Home"]["TextBox74"]);
+const TextBox74Cb = useTextBox74Cb()
+const TextBox75Props = useStore((state)=>state["Home"]["TextBox75"]);
+const TextBox75IoProps = useIoStore((state)=>state["Home"]["TextBox75"]);
+const TextBox75Cb = useTextBox75Cb()
+const Flex37Props = useStore((state)=>state["Home"]["Flex37"]);
+const Flex37IoProps = useIoStore((state)=>state["Home"]["Flex37"]);
+const Flex37Cb = useFlex37Cb()
+const Flex38Props = useStore((state)=>state["Home"]["Flex38"]);
+const Flex38IoProps = useIoStore((state)=>state["Home"]["Flex38"]);
+const Flex38Cb = useFlex38Cb()
+const Flex39Props = useStore((state)=>state["Home"]["Flex39"]);
+const Flex39IoProps = useIoStore((state)=>state["Home"]["Flex39"]);
+const Flex39Cb = useFlex39Cb()
+const Image22Props = useStore((state)=>state["Home"]["Image22"]);
+const Image22IoProps = useIoStore((state)=>state["Home"]["Image22"]);
+const Image22Cb = useImage22Cb()
 
   return (<>
   <Flex {...Menu_BarProps} {...Menu_BarCb} {...Menu_BarIoProps}>
@@ -256,39 +429,57 @@ const Flex20Cb = useFlex20Cb()
 <Flex {...Flex11Props} {...Flex11Cb} {...Flex11IoProps}>
 <TextBox {...TextBox15Props} {...TextBox15Cb} {...TextBox15IoProps}/>
 </Flex>
-<Flex {...Flex13Props} {...Flex13Cb} {...Flex13IoProps}>
-<Flex {...Card1Props} {...Card1Cb} {...Card1IoProps}>
-<Carousel {...Carousel4Props} {...Carousel4Cb} {...Carousel4IoProps}/>
-<Div {...Div2Props} {...Div2Cb} {...Div2IoProps}>
-<TextBox {...TextBox16Props} {...TextBox16Cb} {...TextBox16IoProps}/>
-<TextBox {...TextBox17Props} {...TextBox17Cb} {...TextBox17IoProps}/>
-<TextBox {...TextBox18Props} {...TextBox18Cb} {...TextBox18IoProps}/>
-<Link {...Link11Props} {...Link11Cb} {...Link11IoProps}/>
-</Div>
-<Image {...Image2Props} {...Image2Cb} {...Image2IoProps}/>
-</Flex>
-</Flex>
 <Carousel {...Carousel3Props} {...Carousel3Cb} {...Carousel3IoProps}/>
-<Flex {...Flex19Props} {...Flex19Cb} {...Flex19IoProps}>
-<Carousel {...Carousel7Props} {...Carousel7Cb} {...Carousel7IoProps}/>
-<Div {...Div7Props} {...Div7Cb} {...Div7IoProps}>
-<TextBox {...TextBox34Props} {...TextBox34Cb} {...TextBox34IoProps}/>
-<TextBox {...TextBox33Props} {...TextBox33Cb} {...TextBox33IoProps}/>
-<TextBox {...TextBox32Props} {...TextBox32Cb} {...TextBox32IoProps}/>
-<Link {...Link15Props} {...Link15Cb} {...Link15IoProps}/>
-</Div>
-<Image {...Image7Props} {...Image7Cb} {...Image7IoProps}/>
+<Flex {...Flex27Props} {...Flex27Cb} {...Flex27IoProps}>
+<Flex {...Flex26Props} {...Flex26Cb} {...Flex26IoProps}>
+<Carousel {...Carousel14Props} {...Carousel14Cb} {...Carousel14IoProps}/>
 </Flex>
-<Flex {...Flex20Props} {...Flex20Cb} {...Flex20IoProps}>
-<Carousel {...Carousel8Props} {...Carousel8Cb} {...Carousel8IoProps}/>
-<Div {...Div8Props} {...Div8Cb} {...Div8IoProps}>
-<TextBox {...TextBox37Props} {...TextBox37Cb} {...TextBox37IoProps}/>
-<TextBox {...TextBox36Props} {...TextBox36Cb} {...TextBox36IoProps}/>
-<TextBox {...TextBox35Props} {...TextBox35Cb} {...TextBox35IoProps}/>
-<Link {...Link16Props} {...Link16Cb} {...Link16IoProps}/>
-</Div>
-<Image {...Image8Props} {...Image8Cb} {...Image8IoProps}/>
 </Flex>
-<Button {...Button2Props} {...Button2Cb} {...Button2IoProps}/>
+<Flex {...Card_ContainerProps} {...Card_ContainerCb} {...Card_ContainerIoProps}>
+<Flex {...Flex31Props} {...Flex31Cb} {...Flex31IoProps}>
+<Carousel {...Carousel17Props} {...Carousel17Cb} {...Carousel17IoProps}/>
+<Div {...Div17Props} {...Div17Cb} {...Div17IoProps}>
+<TextBox {...TextBox62Props} {...TextBox62Cb} {...TextBox62IoProps}/>
+<TextBox {...TextBox63Props} {...TextBox63Cb} {...TextBox63IoProps}/>
+<TextBox {...TextBox64Props} {...TextBox64Cb} {...TextBox64IoProps}/>
+<Link {...Link25Props} {...Link25Cb} {...Link25IoProps}/>
+</Div>
+<Image {...Image17Props} {...Image17Cb} {...Image17IoProps}/>
+</Flex>
+<Flex {...Flex33Props} {...Flex33Cb} {...Flex33IoProps}>
+<Carousel {...Carousel19Props} {...Carousel19Cb} {...Carousel19IoProps}/>
+<Div {...Div19Props} {...Div19Cb} {...Div19IoProps}>
+<TextBox {...TextBox68Props} {...TextBox68Cb} {...TextBox68IoProps}/>
+<TextBox {...TextBox69Props} {...TextBox69Cb} {...TextBox69IoProps}/>
+<TextBox {...TextBox70Props} {...TextBox70Cb} {...TextBox70IoProps}/>
+<Link {...Link27Props} {...Link27Cb} {...Link27IoProps}/>
+</Div>
+<Image {...Image19Props} {...Image19Cb} {...Image19IoProps}/>
+</Flex>
+<Flex {...Flex30Props} {...Flex30Cb} {...Flex30IoProps}>
+<Carousel {...Carousel16Props} {...Carousel16Cb} {...Carousel16IoProps}/>
+<Div {...Div16Props} {...Div16Cb} {...Div16IoProps}>
+<TextBox {...TextBox59Props} {...TextBox59Cb} {...TextBox59IoProps}/>
+<TextBox {...TextBox60Props} {...TextBox60Cb} {...TextBox60IoProps}/>
+<TextBox {...TextBox61Props} {...TextBox61Cb} {...TextBox61IoProps}/>
+<Link {...Link24Props} {...Link24Cb} {...Link24IoProps}/>
+</Div>
+<Image {...Image16Props} {...Image16Cb} {...Image16IoProps}/>
+</Flex>
+</Flex>
+<Flex {...Flex34Props} {...Flex34Cb} {...Flex34IoProps}>
+<TextBox {...TextBox71Props} {...TextBox71Cb} {...TextBox71IoProps}/>
+<Flex {...Flex35Props} {...Flex35Cb} {...Flex35IoProps}>
+<Flex {...Flex37Props} {...Flex37Cb} {...Flex37IoProps}>
+<Flex {...Flex38Props} {...Flex38Cb} {...Flex38IoProps}>
+<Flex {...Flex39Props} {...Flex39Cb} {...Flex39IoProps}>
+<TextBox {...TextBox74Props} {...TextBox74Cb} {...TextBox74IoProps}/>
+<TextBox {...TextBox75Props} {...TextBox75Cb} {...TextBox75IoProps}/>
+</Flex>
+<Image {...Image22Props} {...Image22Cb} {...Image22IoProps}/>
+</Flex>
+</Flex>
+</Flex>
+</Flex>
   </>);
 }
