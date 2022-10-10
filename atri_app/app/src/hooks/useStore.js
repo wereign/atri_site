@@ -2145,7 +2145,7 @@ const desktopModeProps = {
         "width": "35%",
         "paddingLeft": "",
         "position": "relative",
-        "left": 300
+        "left": 250
       },
       "custom": {
         "text": "Who's behind all this great work?"
@@ -2165,7 +2165,7 @@ const desktopModeProps = {
         "fontSize": "125%",
         "width": "40%",
         "position": "relative",
-        "left": 300
+        "left": 250
       },
       "custom": {
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labor."
@@ -2193,7 +2193,8 @@ const desktopModeProps = {
       "styles": {
         "display": "flex",
         "boxShadow": "0px 00px 0px 0px ",
-        "flexDirection": "row"
+        "flexDirection": "row",
+        "paddingTop": "70px"
       },
       "callbacks": {}
     },
@@ -2217,6 +2218,120 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/s1.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link28": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "position": "relative",
+        "left": 250,
+        "top": 20,
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "150%"
+      },
+      "custom": {
+        "text": "About Me ↗",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex40": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "marginTop": "100px",
+        "alignItems": "center"
+      },
+      "callbacks": {}
+    },
+    "TextBox76": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "custom": {
+        "text": "__________________________________________________________________________________________________________________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Toggle3": {
+      "styles": {
+        "width": "100px",
+        "height": "50px",
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "custom": {
+        "activeColor": "#2196f3",
+        "active": false,
+        "inactiveColor": "#CCCCCC"
+      },
+      "callbacks": {
+        "onChange": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex41": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "justifyContent": "space-between",
+        "width": "80%",
+        "paddingTop": "100px"
+      },
+      "callbacks": {}
+    },
+    "TextBox77": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600,
+        "fontSize": "200%"
+      },
+      "custom": {
+        "text": "My work skills"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link29": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "color": "#040303",
+        "fontWeight": 600,
+        "fontSize": "150%"
+      },
+      "custom": {
+        "text": "Browse Resume ↗",
+        "url": "/"
       },
       "callbacks": {
         "onClick": [

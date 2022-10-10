@@ -11,7 +11,8 @@ import { Dropdown } from "@atrilabs/react-component-manifests/src/manifests/Drop
 import { Carousel } from "@atrilabs/react-component-manifests/src/manifests/Carousel/Carousel.tsx";
 import { Div } from "@atrilabs/react-component-manifests/src/manifests/Div/Div.tsx";
 import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
-import { useLink1Cb, useLink2Cb, useContactCb, useFlex5Cb, useFlex7Cb, useLink8Cb, useLink9Cb, useLink10Cb, useMenu_BarCb, useTextBox7Cb, useDropdown2Cb, useTextBox8Cb, useTextBox9Cb, useIntro_BoxCb, useTextBox10Cb, useTextBox11Cb, useTextBox12Cb, useTextBox13Cb, useTextBox14Cb, usepast_projectsCb, useCarousel1Cb, useFlex11Cb, useTextBox15Cb, useTextBox16Cb, useTextBox17Cb, useTextBox18Cb, useLink11Cb, useCarousel3Cb, useTextBox19Cb, useTextBox20Cb, useTextBox21Cb, useLink12Cb, useLink13Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useLink14Cb, useTextBox29Cb, useTextBox30Cb, useTextBox31Cb, useLink15Cb, useTextBox32Cb, useTextBox33Cb, useTextBox34Cb, useLink16Cb, useTextBox35Cb, useTextBox36Cb, useTextBox37Cb, useLink17Cb, useTextBox38Cb, useTextBox39Cb, useTextBox40Cb, useLink18Cb, useTextBox41Cb, useTextBox42Cb, useTextBox43Cb, useLink19Cb, useTextBox44Cb, useTextBox45Cb, useTextBox46Cb, useCarousel11Cb, useDiv11Cb, useImage11Cb, useLink20Cb, useTextBox47Cb, useTextBox48Cb, useTextBox49Cb, useTextBox50Cb, useTextBox51Cb, useTextBox52Cb, useLink21Cb, useImage13Cb, useDiv13Cb, useCarousel13Cb, useFlex25Cb, useCarousel14Cb, useFlex26Cb, useFlex27Cb, useTextBox56Cb, useTextBox57Cb, useTextBox58Cb, useLink23Cb, useCard_ContainerCb, useTextBox59Cb, useTextBox60Cb, useTextBox61Cb, useLink24Cb, useImage16Cb, useDiv16Cb, useCarousel16Cb, useFlex30Cb, useTextBox62Cb, useTextBox63Cb, useTextBox64Cb, useLink25Cb, useImage17Cb, useDiv17Cb, useCarousel17Cb, useFlex31Cb, useTextBox65Cb, useTextBox66Cb, useTextBox67Cb, useLink26Cb, useTextBox68Cb, useTextBox69Cb, useTextBox70Cb, useLink27Cb, useImage19Cb, useDiv19Cb, useCarousel19Cb, useFlex33Cb, useFlex34Cb, useTextBox71Cb, useFlex35Cb, useTextBox74Cb, useTextBox75Cb, useFlex37Cb, useFlex38Cb, useFlex39Cb, useImage22Cb } from "../page-cbs/Home";
+import { Toggle } from "@atrilabs/react-component-manifests/src/manifests/Toggle/Toggle.tsx";
+import { useLink1Cb, useLink2Cb, useContactCb, useFlex5Cb, useFlex7Cb, useLink8Cb, useLink9Cb, useLink10Cb, useMenu_BarCb, useTextBox7Cb, useDropdown2Cb, useTextBox8Cb, useTextBox9Cb, useIntro_BoxCb, useTextBox10Cb, useTextBox11Cb, useTextBox12Cb, useTextBox13Cb, useTextBox14Cb, usepast_projectsCb, useCarousel1Cb, useFlex11Cb, useTextBox15Cb, useTextBox16Cb, useTextBox17Cb, useTextBox18Cb, useLink11Cb, useCarousel3Cb, useTextBox19Cb, useTextBox20Cb, useTextBox21Cb, useLink12Cb, useLink13Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useLink14Cb, useTextBox29Cb, useTextBox30Cb, useTextBox31Cb, useLink15Cb, useTextBox32Cb, useTextBox33Cb, useTextBox34Cb, useLink16Cb, useTextBox35Cb, useTextBox36Cb, useTextBox37Cb, useLink17Cb, useTextBox38Cb, useTextBox39Cb, useTextBox40Cb, useLink18Cb, useTextBox41Cb, useTextBox42Cb, useTextBox43Cb, useLink19Cb, useTextBox44Cb, useTextBox45Cb, useTextBox46Cb, useCarousel11Cb, useDiv11Cb, useImage11Cb, useLink20Cb, useTextBox47Cb, useTextBox48Cb, useTextBox49Cb, useTextBox50Cb, useTextBox51Cb, useTextBox52Cb, useLink21Cb, useImage13Cb, useDiv13Cb, useCarousel13Cb, useFlex25Cb, useCarousel14Cb, useFlex26Cb, useFlex27Cb, useTextBox56Cb, useTextBox57Cb, useTextBox58Cb, useLink23Cb, useCard_ContainerCb, useTextBox59Cb, useTextBox60Cb, useTextBox61Cb, useLink24Cb, useImage16Cb, useDiv16Cb, useCarousel16Cb, useFlex30Cb, useTextBox62Cb, useTextBox63Cb, useTextBox64Cb, useLink25Cb, useImage17Cb, useDiv17Cb, useCarousel17Cb, useFlex31Cb, useTextBox65Cb, useTextBox66Cb, useTextBox67Cb, useLink26Cb, useTextBox68Cb, useTextBox69Cb, useTextBox70Cb, useLink27Cb, useImage19Cb, useDiv19Cb, useCarousel19Cb, useFlex33Cb, useFlex34Cb, useTextBox71Cb, useFlex35Cb, useTextBox74Cb, useTextBox75Cb, useFlex37Cb, useFlex38Cb, useFlex39Cb, useImage22Cb, useLink28Cb, useFlex40Cb, useTextBox76Cb, useToggle3Cb, useFlex41Cb, useTextBox77Cb, useLink29Cb } from "../page-cbs/Home";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -403,6 +404,27 @@ const Flex39Cb = useFlex39Cb()
 const Image22Props = useStore((state)=>state["Home"]["Image22"]);
 const Image22IoProps = useIoStore((state)=>state["Home"]["Image22"]);
 const Image22Cb = useImage22Cb()
+const Link28Props = useStore((state)=>state["Home"]["Link28"]);
+const Link28IoProps = useIoStore((state)=>state["Home"]["Link28"]);
+const Link28Cb = useLink28Cb()
+const Flex40Props = useStore((state)=>state["Home"]["Flex40"]);
+const Flex40IoProps = useIoStore((state)=>state["Home"]["Flex40"]);
+const Flex40Cb = useFlex40Cb()
+const TextBox76Props = useStore((state)=>state["Home"]["TextBox76"]);
+const TextBox76IoProps = useIoStore((state)=>state["Home"]["TextBox76"]);
+const TextBox76Cb = useTextBox76Cb()
+const Toggle3Props = useStore((state)=>state["Home"]["Toggle3"]);
+const Toggle3IoProps = useIoStore((state)=>state["Home"]["Toggle3"]);
+const Toggle3Cb = useToggle3Cb()
+const Flex41Props = useStore((state)=>state["Home"]["Flex41"]);
+const Flex41IoProps = useIoStore((state)=>state["Home"]["Flex41"]);
+const Flex41Cb = useFlex41Cb()
+const TextBox77Props = useStore((state)=>state["Home"]["TextBox77"]);
+const TextBox77IoProps = useIoStore((state)=>state["Home"]["TextBox77"]);
+const TextBox77Cb = useTextBox77Cb()
+const Link29Props = useStore((state)=>state["Home"]["Link29"]);
+const Link29IoProps = useIoStore((state)=>state["Home"]["Link29"]);
+const Link29Cb = useLink29Cb()
 
   return (<>
   <Flex {...Menu_BarProps} {...Menu_BarCb} {...Menu_BarIoProps}>
@@ -475,11 +497,20 @@ const Image22Cb = useImage22Cb()
 <Flex {...Flex39Props} {...Flex39Cb} {...Flex39IoProps}>
 <TextBox {...TextBox74Props} {...TextBox74Cb} {...TextBox74IoProps}/>
 <TextBox {...TextBox75Props} {...TextBox75Cb} {...TextBox75IoProps}/>
+<Link {...Link28Props} {...Link28Cb} {...Link28IoProps}/>
 </Flex>
 <Image {...Image22Props} {...Image22Cb} {...Image22IoProps}/>
 </Flex>
 </Flex>
 </Flex>
+</Flex>
+<Flex {...Flex40Props} {...Flex40Cb} {...Flex40IoProps}>
+<TextBox {...TextBox76Props} {...TextBox76Cb} {...TextBox76IoProps}/>
+<Flex {...Flex41Props} {...Flex41Cb} {...Flex41IoProps}>
+<TextBox {...TextBox77Props} {...TextBox77Cb} {...TextBox77IoProps}/>
+<Link {...Link29Props} {...Link29Cb} {...Link29IoProps}/>
+</Flex>
+<Toggle {...Toggle3Props} {...Toggle3Cb} {...Toggle3IoProps}/>
 </Flex>
   </>);
 }
