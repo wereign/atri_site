@@ -2254,8 +2254,11 @@ const desktopModeProps = {
         "display": "flex",
         "boxShadow": "0px 00px 0px 0px ",
         "flexDirection": "column",
-        "marginTop": "100px",
-        "alignItems": "center"
+        "marginTop": "300px",
+        "alignItems": "center",
+        "top": null,
+        "position": "relative",
+        "left": 30
       },
       "callbacks": {}
     },
@@ -2268,25 +2271,6 @@ const desktopModeProps = {
       },
       "callbacks": {
         "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Toggle3": {
-      "styles": {
-        "width": "100px",
-        "height": "50px",
-        "boxShadow": "0px 00px 0px 0px "
-      },
-      "custom": {
-        "activeColor": "#2196f3",
-        "active": false,
-        "inactiveColor": "#CCCCCC"
-      },
-      "callbacks": {
-        "onChange": [
           {
             "sendEventData": true
           }
@@ -2332,6 +2316,2753 @@ const desktopModeProps = {
       "custom": {
         "text": "Browse Resume ↗",
         "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image48": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/4.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox146": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox147": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "50%",
+        "alignSelf": "auto"
+      },
+      "custom": {
+        "text": "User Research"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox148": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image49": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox149": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox150": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "50%"
+      },
+      "custom": {
+        "text": "Brand Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox151": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image50": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/6.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox152": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox153": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "50%"
+      },
+      "custom": {
+        "text": "Motion Graphics"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox154": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image51": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox155": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox156": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%",
+        "alignSelf": "auto"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox157": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image52": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/2.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox158": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox159": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "50%"
+      },
+      "custom": {
+        "text": "Product Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox160": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image53": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/3.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox161": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox162": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "55%"
+      },
+      "custom": {
+        "text": "Web Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox163": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex74": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%",
+        "left": 10,
+        "position": "relative"
+      },
+      "callbacks": {}
+    },
+    "Flex75": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%",
+        "position": "relative",
+        "right": null
+      },
+      "callbacks": {}
+    },
+    "Flex76": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%"
+      },
+      "callbacks": {}
+    },
+    "Flex77": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%",
+        "left": 10,
+        "position": "relative"
+      },
+      "callbacks": {}
+    },
+    "Flex78": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%",
+        "position": "relative",
+        "right": null
+      },
+      "callbacks": {}
+    },
+    "Flex79": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%"
+      },
+      "callbacks": {}
+    },
+    "Flex80": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "position": "static",
+        "left": null,
+        "right": null,
+        "top": null,
+        "bottom": null,
+        "paddingLeft": "",
+        "marginLeft": "10px",
+        "marginRight": "10px",
+        "width": "",
+        "height": ""
+      },
+      "callbacks": {}
+    },
+    "Flex81": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "position": "static",
+        "left": null,
+        "right": null,
+        "top": null,
+        "bottom": null,
+        "paddingLeft": "",
+        "marginLeft": "10px",
+        "marginRight": "10px",
+        "width": "",
+        "height": ""
+      },
+      "callbacks": {}
+    },
+    "Flex82": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "position": "relative",
+        "left": 70,
+        "top": 40,
+        "width": "",
+        "height": ""
+      },
+      "callbacks": {}
+    },
+    "Flex93": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "callbacks": {}
+    },
+    "TextBox176": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "75%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "115%",
+        "marginLeft": "50px",
+        "marginTop": "100px"
+      },
+      "custom": {
+        "text": "Typography -- September 1,2022"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox177": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "75%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "155%",
+        "marginLeft": "50px"
+      },
+      "custom": {
+        "text": "5 free hot typographies to download in 2022"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox178": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "75%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "155%",
+        "marginLeft": "50px"
+      },
+      "custom": {
+        "text": "What did I learn from doing 50+ design sprints?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox179": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "75%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "115%",
+        "marginLeft": "50px",
+        "marginTop": "100px"
+      },
+      "custom": {
+        "text": "Design -- September 1,2022"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex94": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "marginLeft": "",
+        "position": "relative",
+        "left": 40
+      },
+      "callbacks": {}
+    },
+    "Image57": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "55%",
+        "paddingRight": "50px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Design_2.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image58": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "55%",
+        "paddingRight": "50px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Design_1.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex95": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "marginLeft": "",
+        "position": "relative",
+        "left": 40
+      },
+      "callbacks": {}
+    },
+    "TextBox180": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "40%",
+        "paddingLeft": "",
+        "marginLeft": "",
+        "position": "relative",
+        "left": 600
+      },
+      "custom": {
+        "text": "Browse for more articles ↗ "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox181": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "185%",
+        "width": "45%",
+        "position": "relative",
+        "left": 100
+      },
+      "custom": {
+        "text": "Articles and News"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox182": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "%",
+        "position": "relative",
+        "left": 200
+      },
+      "custom": {
+        "text": "_______________________________________________________________________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex96": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginTop": "45px"
+      },
+      "callbacks": {}
+    },
+    "Flex97": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "row",
+        "marginBottom": "45px"
+      },
+      "callbacks": {}
+    },
+    "Flex98": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "justifyContent": "space-between",
+        "flexDirection": "row"
+      },
+      "callbacks": {}
+    },
+    "Flex99": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "alignItems": "flex-start",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "alignContent": "stretch",
+        "marginTop": "300px",
+        "position": "relative",
+        "left": 55
+      },
+      "callbacks": {}
+    }
+  },
+  "components": {
+    "Image25": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox82": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "25%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox83": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image27": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox86": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "25%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox87": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image28": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox88": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox89": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%",
+        "alignSelf": "auto"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image30": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox92": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "25%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox93": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image31": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/2.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox94": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox95": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image32": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/3.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox96": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox97": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox98": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox99": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox100": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox101": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox102": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox103": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image33": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/3.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox104": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox105": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox106": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image34": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/2.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox107": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox108": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%",
+        "alignSelf": "auto"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox109": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image35": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox110": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox111": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "55%"
+      },
+      "custom": {
+        "text": "Web Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox112": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image36": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/3.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox113": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox114": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "50%"
+      },
+      "custom": {
+        "text": "Product Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox115": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image37": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/2.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox116": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox117": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%",
+        "alignSelf": "auto"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox118": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image38": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex58": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%"
+      },
+      "callbacks": {}
+    },
+    "Flex59": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%",
+        "position": "relative",
+        "right": null
+      },
+      "callbacks": {}
+    },
+    "Flex60": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%",
+        "left": 10,
+        "position": "relative"
+      },
+      "callbacks": {}
+    },
+    "TextBox119": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox120": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox121": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image39": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/3.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox122": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox123": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox124": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image40": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/2.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox125": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox126": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%",
+        "alignSelf": "auto"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox127": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image41": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox128": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox129": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "50%"
+      },
+      "custom": {
+        "text": "Motion Graphics"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox130": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image42": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/6.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox131": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox132": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "50%"
+      },
+      "custom": {
+        "text": "Brand Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox133": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image43": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox134": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox135": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "50%",
+        "alignSelf": "auto"
+      },
+      "custom": {
+        "text": "User Research"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox136": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image44": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/4.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex66": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%"
+      },
+      "callbacks": {}
+    },
+    "Flex67": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%",
+        "position": "relative",
+        "right": null
+      },
+      "callbacks": {}
+    },
+    "Flex68": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "65%",
+        "left": 10,
+        "position": "relative"
+      },
+      "callbacks": {}
+    },
+    "TextBox137": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox138": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox139": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image45": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/3.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox140": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox141": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox142": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image46": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/2.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox143": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "12%",
+        "fontSize": "",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600
+      },
+      "custom": {
+        "text": "__________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox144": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "12%",
+        "alignSelf": "auto"
+      },
+      "custom": {
+        "text": "UI/UX Design"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox145": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3d3b3b",
+        "width": "60%"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image47": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex83": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "alignItems": "center"
+      },
+      "callbacks": {}
+    },
+    "Flex84": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "justifyContent": "space-between",
+        "width": "80%",
+        "flexDirection": "row",
+        "alignItems": "center"
+      },
+      "callbacks": {}
+    },
+    "TextBox164": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "11%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "Articles & News"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox165": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600,
+        "width": "15%"
+      },
+      "custom": {
+        "text": "Browse more articles ↗"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex85": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "67%",
+        "paddingLeft": "",
+        "marginLeft": "80px",
+        "marginTop": "100px",
+        "marginRight": ""
+      },
+      "callbacks": {}
+    },
+    "TextBox166": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "45%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "color": "#514e4e",
+        "fontSize": "115%"
+      },
+      "custom": {
+        "text": "Design - September 2022"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox167": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "75%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "155%"
+      },
+      "custom": {
+        "text": "What did I learn from 50+ design sprints?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex86": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginRight": "30px"
+      },
+      "callbacks": {}
+    },
+    "Image54": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "45%",
+        "position": "relative",
+        "right": 50
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Design_1.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex87": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "alignItems": "flex-start",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "alignContent": "stretch"
+      },
+      "callbacks": {}
+    },
+    "Flex88": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "justifyContent": "space-between",
+        "flexDirection": "row"
+      },
+      "callbacks": {}
+    },
+    "Flex89": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "row",
+        "marginBottom": "45px"
+      },
+      "callbacks": {}
+    },
+    "TextBox168": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "75%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "115%",
+        "marginLeft": "50px",
+        "marginTop": "100px"
+      },
+      "custom": {
+        "text": "Design -- September 1,2022"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox169": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "75%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "155%",
+        "marginLeft": "50px"
+      },
+      "custom": {
+        "text": "What did I learn from doing 50+ design sprints?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex90": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "marginLeft": "",
+        "position": "relative",
+        "left": 40
+      },
+      "callbacks": {}
+    },
+    "Image55": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "55%",
+        "paddingRight": "50px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Design_1.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox170": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "185%",
+        "width": "45%",
+        "position": "relative",
+        "left": 100
+      },
+      "custom": {
+        "text": "Articles and News"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox171": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "125%",
+        "width": "40%",
+        "paddingLeft": "",
+        "marginLeft": "",
+        "position": "relative",
+        "left": 600
+      },
+      "custom": {
+        "text": "Browse for more articles ↗ "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox172": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "75%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "155%",
+        "marginLeft": "50px"
+      },
+      "custom": {
+        "text": "5 free hot typographies to download in 2022"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox173": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "75%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "fontSize": "115%",
+        "marginLeft": "50px",
+        "marginTop": "100px"
+      },
+      "custom": {
+        "text": "Typography -- September 1,2022"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image56": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "55%",
+        "paddingRight": "50px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Design_2.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex91": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "marginLeft": "",
+        "position": "relative",
+        "left": 40
+      },
+      "callbacks": {}
+    },
+    "Flex92": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginTop": "45px"
+      },
+      "callbacks": {}
+    },
+    "TextBox174": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "%",
+        "position": "relative",
+        "left": 200
+      },
+      "custom": {
+        "text": "_______________________________________________________________________________"
       },
       "callbacks": {
         "onClick": [
@@ -2611,7 +5342,8 @@ const breakpointProps = {
         }
       }
     }
-  }
+  },
+  "components": {}
 }};
 
 function getViewportDimension() {

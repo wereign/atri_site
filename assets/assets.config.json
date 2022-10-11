@@ -7,5 +7,29 @@
   },
   "s1.jpeg": {
     "mime": "image/jpeg"
+  },
+  "1.svg": {
+    "mime": "image/svg+xml"
+  },
+  "2.svg": {
+    "mime": "image/svg+xml"
+  },
+  "3.svg": {
+    "mime": "image/svg+xml"
+  },
+  "4.svg": {
+    "mime": "image/svg+xml"
+  },
+  "5.svg": {
+    "mime": "image/svg+xml"
+  },
+  "6.svg": {
+    "mime": "image/svg+xml"
+  },
+  "Design_1.jpeg": {
+    "mime": "image/jpeg"
+  },
+  "Design_2.jpeg": {
+    "mime": "image/jpeg"
   }
 }
