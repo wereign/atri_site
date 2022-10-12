@@ -108,72 +108,11 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex7": {
-      "styles": {
-        "display": "flex",
-        "boxShadow": "0px 00px 0px 0px ",
-        "justifyContent": "space-around"
-      },
-      "callbacks": {}
-    },
-    "Link8": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px ",
-        "paddingLeft": "500px",
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": 300
-      },
-      "custom": {
-        "text": "About",
-        "url": "/"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Link9": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px ",
-        "paddingLeft": ""
-      },
-      "custom": {
-        "text": "Portfolio",
-        "url": "/"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Link10": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px ",
-        "fontSize": ""
-      },
-      "custom": {
-        "text": "Contact",
-        "url": "/"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "Menu_Bar": {
       "styles": {
         "display": "flex",
         "boxShadow": "0px 00px 0px 0px ",
-        "justifyContent": "space-around",
+        "justifyContent": "space-between",
         "flexDirection": "row",
         "alignContent": "stretch",
         "flexWrap": "nowrap",
@@ -199,33 +138,6 @@ const desktopModeProps = {
           }
         ]
       }
-    },
-    "Dropdown2": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px ",
-        "paddingRight": "",
-        "marginRight": "30px",
-        "outlineWidth": "0px",
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "normal",
-        "fontSize": "",
-        "color": "#000000",
-        "backgroundColor": "#ffffff",
-        "borderRadius": "",
-        "position": "static"
-      },
-      "custom": {
-        "values": [
-          "Pages",
-          "Home V2",
-          "Home V3",
-          "Blog V1",
-          "Blog V2",
-          "Blog V2"
-        ],
-        "selectedValue": "Pages"
-      },
-      "callbacks": {}
     },
     "TextBox8": {
       "styles": {
@@ -3253,10 +3165,12 @@ const desktopModeProps = {
         "display": "flex",
         "boxShadow": "0px 00px 0px 0px ",
         "position": "relative",
-        "left": 225,
-        "top": 250,
+        "left": 220,
+        "top": null,
         "paddingLeft": "100px",
-        "paddingRight": "100px"
+        "paddingRight": "100px",
+        "marginTop": "250px",
+        "marginBottom": "250px"
       },
       "callbacks": {}
     },
@@ -3280,6 +3194,1336 @@ const desktopModeProps = {
           }
         ]
       }
+    },
+    "TextBox222": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Past Clients"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox223": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Portfolio"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox224": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox225": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Case Study"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox226": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Product"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox227": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox228": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px"
+      },
+      "custom": {
+        "text": "Blog Post"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox229": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Blog V3"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox230": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Blog V2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox231": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Blog V1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox232": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "width": "25%",
+        "position": "relative",
+        "left": 12,
+        "bottom": 190
+      },
+      "custom": {
+        "text": "Menu"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox233": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "About V3"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox234": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "About V2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox235": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "About V1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox236": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Home V3"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox237": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Home V2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox238": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Home V1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox239": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "More Templates"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox240": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Changelog"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox241": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Password Protected"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox242": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Licenses"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox243": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "404 Not Found"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox244": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Style Guide"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox245": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Start Here"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox246": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontSize": "115%",
+        "fontWeight": 500,
+        "left": 10,
+        "top": 5,
+        "bottom": 5,
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Utility Pages"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex111": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%",
+        "flexDirection": "column"
+      },
+      "callbacks": {}
+    },
+    "Flex112": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "25%",
+        "flexDirection": "column"
+      },
+      "callbacks": {}
+    },
+    "Flex113": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "25%"
+      },
+      "callbacks": {}
+    },
+    "TextBox247": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "position": "relative",
+        "left": null,
+        "top": null,
+        "bottom": 10
+      },
+      "custom": {
+        "text": "______________________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Input4": {
+      "styles": {
+        "boxSizing": "border-box",
+        "fontVariant": "tabular-nums",
+        "fontFeatureSettings": "tnum",
+        "paddingTop": "4px",
+        "paddingLeft": "11px",
+        "paddingBottom": "4px",
+        "paddingRight": "11px",
+        "color": "#000000d9",
+        "fontSize": "14px",
+        "backgroundColor": "#fff",
+        "backgroundImage": "none",
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "#d9d9d9",
+        "borderRadius": "",
+        "boxShadow": "0px 00px 0px 0px ",
+        "outlineWidth": "0px",
+        "width": "55%"
+      },
+      "custom": {
+        "value": "",
+        "placeholder": "Enter your email"
+      },
+      "callbacks": {}
+    },
+    "TextBox248": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3e3b3b",
+        "fontSize": "105%",
+        "width": "75%",
+        "marginTop": "30px",
+        "marginBottom": "30px"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet tragon consectetur adipiscing elit mattis faucibus odio feugiat arcu scelerisque"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox249": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600,
+        "fontSize": "200%",
+        "width": "45%",
+        "paddingBottom": "",
+        "paddingTop": ""
+      },
+      "custom": {
+        "text": "Webfolio X"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox250": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "width": "30%",
+        "marginTop": "30px"
+      },
+      "custom": {
+        "text": "Subscribe ↗"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox251": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Past Clients"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox252": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Portfolio"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox253": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox254": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Case Study"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox255": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Product"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox256": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox257": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px"
+      },
+      "custom": {
+        "text": "Blog Post"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox258": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Blog V3"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox259": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Blog V2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox260": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Blog V1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox261": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "width": "25%",
+        "position": "relative",
+        "left": 12,
+        "bottom": 190
+      },
+      "custom": {
+        "text": "Menu"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox262": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "About V3"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox263": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "About V2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox264": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "About V1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox265": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Home V3"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox266": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Home V2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox267": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Home V1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox268": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "More Templates"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox269": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Changelog"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox270": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Password Protected"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox271": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Licenses"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox272": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "404 Not Found"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox273": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Style Guide"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox274": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Start Here"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox275": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontSize": "115%",
+        "fontWeight": 500,
+        "left": 10,
+        "top": 5,
+        "bottom": 5,
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Utility Pages"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex119": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%",
+        "flexDirection": "column"
+      },
+      "callbacks": {}
+    },
+    "Flex120": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "25%",
+        "flexDirection": "column"
+      },
+      "callbacks": {}
+    },
+    "Flex121": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "25%"
+      },
+      "callbacks": {}
+    },
+    "TextBox276": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "position": "relative",
+        "left": null,
+        "top": null,
+        "bottom": 10
+      },
+      "custom": {
+        "text": "______________________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Input5": {
+      "styles": {
+        "boxSizing": "border-box",
+        "fontVariant": "tabular-nums",
+        "fontFeatureSettings": "tnum",
+        "paddingTop": "4px",
+        "paddingLeft": "11px",
+        "paddingBottom": "4px",
+        "paddingRight": "11px",
+        "color": "#000000d9",
+        "fontSize": "14px",
+        "backgroundColor": "#fff",
+        "backgroundImage": "none",
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "#d9d9d9",
+        "borderRadius": "",
+        "boxShadow": "0px 00px 0px 0px ",
+        "outlineWidth": "0px",
+        "width": "55%"
+      },
+      "custom": {
+        "value": "",
+        "placeholder": "Enter your email"
+      },
+      "callbacks": {}
+    },
+    "TextBox277": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3e3b3b",
+        "fontSize": "105%",
+        "width": "75%",
+        "marginTop": "30px",
+        "marginBottom": "30px"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet tragon consectetur adipiscing elit mattis faucibus odio feugiat arcu scelerisque"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox278": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600,
+        "fontSize": "200%",
+        "width": "45%",
+        "paddingBottom": "",
+        "paddingTop": ""
+      },
+      "custom": {
+        "text": "Webfolio X"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox279": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "width": "30%",
+        "marginTop": "30px"
+      },
+      "custom": {
+        "text": "Subscribe ↗"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex122": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "15%"
+      },
+      "callbacks": {}
+    },
+    "Flex123": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "35%",
+        "marginTop": "",
+        "paddingTop": "20px",
+        "paddingBottom": "20px",
+        "paddingLeft": "10px",
+        "paddingRight": "10px"
+      },
+      "callbacks": {}
+    },
+    "Flex124": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "left": null,
+        "paddingLeft": "30px",
+        "paddingRight": "",
+        "paddingTop": "30px",
+        "marginBottom": "",
+        "width": "35%"
+      },
+      "callbacks": {}
+    },
+    "Flex125": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "position": "relative",
+        "left": 225
+      },
+      "callbacks": {}
+    },
+    "Dropdown4": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "backgroundColor": "transparent",
+        "borderColor": "transparent",
+        "fontSize": "110%"
+      },
+      "custom": {
+        "values": [
+          "Pages",
+          "Home V1",
+          "Home V2",
+          "Home V3",
+          "Blog V1",
+          "Blog V2",
+          "Blog V3"
+        ],
+        "selectedValue": "Pages"
+      },
+      "callbacks": {}
+    },
+    "TextBox283": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox284": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "Portfolio"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox285": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex127": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "justifyContent": "space-between",
+        "width": "35%"
+      },
+      "callbacks": {}
     }
   },
   "components": {
@@ -5167,50 +6411,16 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex100": {
-      "styles": {
-        "display": "flex",
-        "boxShadow": "0px 00px 0px 0px ",
-        "flexDirection": "column",
-        "paddingLeft": "",
-        "paddingTop": "",
-        "width": "70%"
-      },
-      "callbacks": {}
-    },
-    "TextBox183": {
-      "styles": {
-        "boxShadow": "0px 00px 0px 0px ",
-        "width": "85%",
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": 500,
-        "fontSize": "300%",
-        "position": "relative",
-        "left": 55
-      },
-      "custom": {
-        "text": "Intrested in working together?"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox184": {
+    "TextBox192": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
         "fontFamily": "IBM Plex Sans",
         "fontWeight": 500,
-        "fontSize": "300%",
-        "width": "65%",
-        "position": "relative",
-        "left": 55
+        "width": "30%",
+        "marginTop": "30px"
       },
       "custom": {
-        "text": "Get in touch today!"
+        "text": "Subscribe ↗"
       },
       "callbacks": {
         "onClick": [
@@ -5220,18 +6430,18 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox185": {
+    "TextBox193": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
-        "fontSize": "",
-        "width": "20%",
-        "position": "relative",
-        "top": null,
-        "bottom": 20,
-        "left": 65
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 600,
+        "fontSize": "200%",
+        "width": "45%",
+        "paddingBottom": "",
+        "paddingTop": ""
       },
       "custom": {
-        "text": "_________________________________"
+        "text": "Webfolio X"
       },
       "callbacks": {
         "onClick": [
@@ -5241,19 +6451,19 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox186": {
+    "TextBox194": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
         "fontFamily": "IBM Plex Sans",
         "fontWeight": 300,
-        "color": "#3e3d3d",
-        "width": "90%",
-        "fontSize": "125%",
-        "position": "relative",
-        "left": 55
+        "color": "#3e3b3b",
+        "fontSize": "105%",
+        "width": "75%",
+        "marginTop": "30px",
+        "marginBottom": "30px"
       },
       "custom": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla arcu porttitor molestie sed mauris sollicitudin id ornare egestas."
+        "text": "Lorem ipsum dolor sit amet tragon consectetur adipiscing elit mattis faucibus odio feugiat arcu scelerisque"
       },
       "callbacks": {
         "onClick": [
@@ -5263,24 +6473,43 @@ const desktopModeProps = {
         ]
       }
     },
-    "Flex101": {
+    "Input3": {
       "styles": {
-        "display": "flex",
-        "boxShadow": "0px 00px 0px 0px "
+        "boxSizing": "border-box",
+        "fontVariant": "tabular-nums",
+        "fontFeatureSettings": "tnum",
+        "paddingTop": "4px",
+        "paddingLeft": "11px",
+        "paddingBottom": "4px",
+        "paddingRight": "11px",
+        "color": "#000000d9",
+        "fontSize": "14px",
+        "backgroundColor": "#fff",
+        "backgroundImage": "none",
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "#d9d9d9",
+        "borderRadius": "",
+        "boxShadow": "0px 00px 0px 0px ",
+        "outlineWidth": "0px",
+        "width": "55%"
+      },
+      "custom": {
+        "value": "",
+        "placeholder": "Enter your email"
       },
       "callbacks": {}
     },
-    "Image59": {
+    "TextBox195": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
-        "width": "",
         "position": "relative",
         "left": null,
-        "right": null
+        "top": null,
+        "bottom": 10
       },
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/arrow.png"
+        "text": "______________________________"
       },
       "callbacks": {
         "onClick": [
@@ -5289,6 +6518,582 @@ const desktopModeProps = {
           }
         ]
       }
+    },
+    "Flex104": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "width": "25%"
+      },
+      "callbacks": {}
+    },
+    "TextBox196": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Home V1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox197": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Home V2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox198": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Home V3"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox199": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "About V1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox200": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "About V2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox201": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "100%",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "About V3"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex105": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "25%",
+        "flexDirection": "column"
+      },
+      "callbacks": {}
+    },
+    "TextBox202": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "marginLeft": "10px"
+      },
+      "custom": {
+        "text": "Blog V1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox203": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Blog V2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox204": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Blog V3"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox205": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px"
+      },
+      "custom": {
+        "text": "Blog Post"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox206": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox207": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Product"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex106": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "15%",
+        "flexDirection": "column"
+      },
+      "callbacks": {}
+    },
+    "TextBox208": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Case Study"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox209": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox210": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Portfolio"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox211": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Past Clients"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox212": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "width": "25%",
+        "position": "relative",
+        "left": 12,
+        "bottom": 190
+      },
+      "custom": {
+        "text": "Menu"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox214": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontSize": "115%",
+        "fontWeight": 500,
+        "left": 10,
+        "top": 5,
+        "bottom": 5,
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Utility Pages"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox215": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Start Here"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox216": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Style Guide"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox217": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "404 Not Found"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox218": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Licenses"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox219": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Password Protected"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox220": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px"
+      },
+      "custom": {
+        "text": "Changelog"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox221": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "marginLeft": "10px",
+        "marginTop": "5px",
+        "marginBottom": "5px",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "More Templates"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex126": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "justifyContent": "space-between",
+        "width": "35%"
+      },
+      "callbacks": {}
+    },
+    "TextBox280": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox281": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "Portfolio"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox282": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Dropdown3": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "backgroundColor": "transparent",
+        "borderColor": "transparent",
+        "fontSize": "110%"
+      },
+      "custom": {
+        "values": [
+          "Pages",
+          "Home V1",
+          "Home V2",
+          "Home V3",
+          "Blog V1",
+          "Blog V2",
+          "Blog V3"
+        ],
+        "selectedValue": "Pages"
+      },
+      "callbacks": {}
     }
   }
 }};
@@ -5297,26 +7102,9 @@ const breakpointProps = {
   ...{
   "Home": {
     "478": {
-      "Link8": {
-        "styles": {
-          "boxShadow": "0px 00px 0px 0px ",
-          "paddingLeft": "30px"
-        }
-      },
-      "Link9": {
-        "styles": {
-          "boxShadow": "0px 00px 0px 0px "
-        }
-      },
       "Menu_Bar": {
         "styles": {
           "boxShadow": "0px 00px 0px 0px "
-        }
-      },
-      "Dropdown2": {
-        "styles": {
-          "boxShadow": "0px 00px 0px 0px ",
-          "marginRight": "15px"
         }
       },
       "TextBox9": {
@@ -5382,17 +7170,6 @@ const breakpointProps = {
     },
     "767": {
       "Link1": {
-        "styles": {
-          "boxShadow": "0px 00px 0px 0px "
-        }
-      },
-      "Link8": {
-        "styles": {
-          "boxShadow": "0px 00px 0px 0px ",
-          "paddingLeft": "300px"
-        }
-      },
-      "Link9": {
         "styles": {
           "boxShadow": "0px 00px 0px 0px "
         }
@@ -5465,16 +7242,6 @@ const breakpointProps = {
     },
     "991": {
       "Link1": {
-        "styles": {
-          "boxShadow": "0px 00px 0px 0px "
-        }
-      },
-      "Link8": {
-        "styles": {
-          "boxShadow": "0px 00px 0px 0px "
-        }
-      },
-      "Link9": {
         "styles": {
           "boxShadow": "0px 00px 0px 0px "
         }
