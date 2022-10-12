@@ -1,15 +1,15 @@
 {
   "BarChart": 1,
-  "Flex": 99,
-  "TextBox": 182,
-  "Image": 58,
+  "Flex": 103,
+  "TextBox": 191,
+  "Image": 60,
   "Link": 29,
   "Accordion": 3,
   "Dropdown": 2,
   "Menu": 2,
   "Div": 21,
   "Carousel": 19,
-  "Toggle": 8,
+  "Toggle": 11,
   "Input": 2,
   "Button": 2
 }

@@ -234,7 +234,7 @@ const desktopModeProps = {
         "fontWeight": 600,
         "paddingLeft": "",
         "marginLeft": "15px",
-        "fontSize": "250%"
+        "fontSize": "450%"
       },
       "custom": {
         "text": "I'm Sam ,and I design"
@@ -254,7 +254,7 @@ const desktopModeProps = {
         "fontWeight": 600,
         "paddingLeft": "",
         "marginLeft": "15px",
-        "fontSize": "250%"
+        "fontSize": "350%"
       },
       "custom": {
         "text": " user interfaces for startups"
@@ -316,7 +316,7 @@ const desktopModeProps = {
         "color": "#716666",
         "marginLeft": "15px",
         "outlineOffset": "px",
-        "fontSize": "120%",
+        "fontSize": "170%",
         "fontFamily": "IBM Plex Sans"
       },
       "custom": {
@@ -335,7 +335,7 @@ const desktopModeProps = {
         "boxShadow": "0px 00px 0px 0px ",
         "color": "#716666",
         "marginLeft": "15px",
-        "fontSize": "120%",
+        "fontSize": "170%",
         "fontFamily": "IBM Plex Sans"
       },
       "custom": {
@@ -355,7 +355,7 @@ const desktopModeProps = {
         "color": "#716666",
         "marginLeft": "15px",
         "fontFamily": "IBM Plex Sans",
-        "fontSize": "120%"
+        "fontSize": "170%"
       },
       "custom": {
         "text": "minim veniam quis nostrud"
@@ -1680,7 +1680,7 @@ const desktopModeProps = {
       },
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/kick.jpg"
+        "src": "/app-assets/Project_3.jpg"
       },
       "callbacks": {
         "onClick": [
@@ -1823,7 +1823,7 @@ const desktopModeProps = {
       },
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/kick.jpg"
+        "src": "/app-assets/Project_1.jpg"
       },
       "callbacks": {
         "onClick": [
@@ -2049,7 +2049,7 @@ const desktopModeProps = {
       },
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/kick.jpg"
+        "src": "/app-assets/Project_2.jpg"
       },
       "callbacks": {
         "onClick": [
@@ -2194,7 +2194,8 @@ const desktopModeProps = {
         "display": "flex",
         "boxShadow": "0px 00px 0px 0px ",
         "flexDirection": "row",
-        "paddingTop": "70px"
+        "paddingTop": "70px",
+        "position": "static"
       },
       "callbacks": {}
     },
@@ -2258,7 +2259,7 @@ const desktopModeProps = {
         "alignItems": "center",
         "top": null,
         "position": "relative",
-        "left": 30
+        "left": 100
       },
       "callbacks": {}
     },
@@ -3126,9 +3127,159 @@ const desktopModeProps = {
         "alignContent": "stretch",
         "marginTop": "300px",
         "position": "relative",
-        "left": 55
+        "left": 225,
+        "bottom": 0
       },
       "callbacks": {}
+    },
+    "TextBox187": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3e3d3d",
+        "width": "90%",
+        "fontSize": "125%",
+        "position": "relative",
+        "left": 55
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla arcu porttitor molestie sed mauris sollicitudin id ornare egestas."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox188": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "",
+        "width": "20%",
+        "position": "relative",
+        "top": null,
+        "bottom": 20,
+        "left": 65
+      },
+      "custom": {
+        "text": "_________________________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox189": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "300%",
+        "width": "65%",
+        "position": "relative",
+        "left": 55
+      },
+      "custom": {
+        "text": "Get in touch today!"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox190": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "85%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "300%",
+        "position": "relative",
+        "left": 55
+      },
+      "custom": {
+        "text": "Interested in working together?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image60": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "",
+        "position": "relative",
+        "left": null,
+        "right": null
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/arrow.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex102": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "flexDirection": "column",
+        "paddingLeft": "",
+        "paddingTop": "",
+        "width": "70%"
+      },
+      "callbacks": {}
+    },
+    "Flex103": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px ",
+        "position": "relative",
+        "left": 225,
+        "top": 250,
+        "paddingLeft": "100px",
+        "paddingRight": "100px"
+      },
+      "callbacks": {}
+    },
+    "TextBox191": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "",
+        "width": "20%",
+        "position": "relative",
+        "top": 100,
+        "bottom": 20,
+        "left": 400
+      },
+      "custom": {
+        "text": "__________________________________________________________________________________________________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     }
   },
   "components": {
@@ -4832,36 +4983,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Flex87": {
-      "styles": {
-        "display": "flex",
-        "boxShadow": "0px 00px 0px 0px ",
-        "flexDirection": "column",
-        "alignItems": "flex-start",
-        "justifyContent": "flex-start",
-        "flexWrap": "nowrap",
-        "alignContent": "stretch"
-      },
-      "callbacks": {}
-    },
-    "Flex88": {
-      "styles": {
-        "display": "flex",
-        "boxShadow": "0px 00px 0px 0px ",
-        "justifyContent": "space-between",
-        "flexDirection": "row"
-      },
-      "callbacks": {}
-    },
-    "Flex89": {
-      "styles": {
-        "display": "flex",
-        "boxShadow": "0px 00px 0px 0px ",
-        "flexDirection": "row",
-        "marginBottom": "45px"
-      },
-      "callbacks": {}
-    },
     "TextBox168": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
@@ -5046,23 +5167,120 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex92": {
+    "Flex100": {
       "styles": {
         "display": "flex",
         "boxShadow": "0px 00px 0px 0px ",
-        "marginTop": "45px"
+        "flexDirection": "column",
+        "paddingLeft": "",
+        "paddingTop": "",
+        "width": "70%"
       },
       "callbacks": {}
     },
-    "TextBox174": {
+    "TextBox183": {
       "styles": {
         "boxShadow": "0px 00px 0px 0px ",
-        "fontSize": "%",
+        "width": "85%",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "300%",
         "position": "relative",
-        "left": 200
+        "left": 55
       },
       "custom": {
-        "text": "_______________________________________________________________________________"
+        "text": "Intrested in working together?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox184": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 500,
+        "fontSize": "300%",
+        "width": "65%",
+        "position": "relative",
+        "left": 55
+      },
+      "custom": {
+        "text": "Get in touch today!"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox185": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontSize": "",
+        "width": "20%",
+        "position": "relative",
+        "top": null,
+        "bottom": 20,
+        "left": 65
+      },
+      "custom": {
+        "text": "_________________________________"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox186": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "fontFamily": "IBM Plex Sans",
+        "fontWeight": 300,
+        "color": "#3e3d3d",
+        "width": "90%",
+        "fontSize": "125%",
+        "position": "relative",
+        "left": 55
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla arcu porttitor molestie sed mauris sollicitudin id ornare egestas."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex101": {
+      "styles": {
+        "display": "flex",
+        "boxShadow": "0px 00px 0px 0px "
+      },
+      "callbacks": {}
+    },
+    "Image59": {
+      "styles": {
+        "boxShadow": "0px 00px 0px 0px ",
+        "width": "",
+        "position": "relative",
+        "left": null,
+        "right": null
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/arrow.png"
       },
       "callbacks": {
         "onClick": [
